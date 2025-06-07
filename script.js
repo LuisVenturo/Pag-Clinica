@@ -90,6 +90,100 @@
             observer.observe(el);
         });
 
+        // Slider functionality
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            // Remove active class from all slides and dots
+            slides.forEach(slide => slide.classList.remove('active', 'prev'));
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            // Add prev class to current slide before changing
+            if (slides[currentSlideIndex]) {
+                slides[currentSlideIndex].classList.add('prev');
+            }
+
+            // Update current slide index
+            currentSlideIndex = index;
+
+            // Add active class to current slide and dot
+            if (slides[currentSlideIndex]) {
+                slides[currentSlideIndex].classList.add('active');
+            }
+            if (dots[currentSlideIndex]) {
+                dots[currentSlideIndex].classList.add('active');
+            }
+        }
+
+        function changeSlide(direction) {
+            let newIndex = currentSlideIndex + direction;
+            
+            if (newIndex >= totalSlides) {
+                newIndex = 0;
+            } else if (newIndex < 0) {
+                newIndex = totalSlides - 1;
+            }
+            
+            showSlide(newIndex);
+        }
+
+        function currentSlide(index) {
+            showSlide(index - 1);
+        }
+
+        // Auto slide every 5 seconds
+        setInterval(() => {
+            changeSlide(1);
+        }, 5000);
+
+        // Banner functionality
+        const bannerTexts = [
+            "🎉 ¡Promoción especial! Consultas ginecológicas con 30% de descuento durante todo enero",
+            "📅 Agenda tu cita online las 24 horas - Sistema disponible en nuestra web",
+            "🏥 Nuevo equipo de ultrasonido 4D - Tecnología de última generación",
+            "👩‍⚕️ Bienvenida Dra. Patricia Silva - Especialista en medicina reproductiva"
+        ];
+
+        let currentBannerIndex = 0;
+
+        function rotateBannerText() {
+            const bannerTextElement = document.getElementById('bannerText');
+            if (bannerTextElement) {
+                bannerTextElement.style.opacity = '0';
+                setTimeout(() => {
+                    currentBannerIndex = (currentBannerIndex + 1) % bannerTexts.length;
+                    bannerTextElement.textContent = bannerTexts[currentBannerIndex];
+                    bannerTextElement.style.opacity = '1';
+                }, 300);
+            }
+        }
+
+        // Rotate banner text every 4 seconds
+        setInterval(rotateBannerText, 4000);
+
+        function closeBanner() {
+            const banner = document.querySelector('.announcements-banner');
+            banner.style.transform = 'translateY(-100%)';
+            setTimeout(() => {
+                banner.style.display = 'none';
+            }, 300);
+        }
+            let current = 0;
+            const increment = target / 100;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    element.textContent = target + (element.textContent.includes('+') ? '+' : '');
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current) + (element.textContent.includes('+') ? '+' : '');
+                }
+            }, 20);
+        
+
         // Counter animation for stats
         function animateCounter(element, target) {
             let current = 0;

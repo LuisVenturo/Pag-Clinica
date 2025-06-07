@@ -58,6 +58,163 @@
         </div>
     </section>
 
+
+    <!-- Announcements Banner -->
+    <div class="announcements-banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <i class="fas fa-bullhorn"></i>
+                <span id="bannerText">🎉 ¡Promoción especial! Consultas ginecológicas con 30% de descuento durante todo enero</span>
+            </div>
+            <button class="banner-close" onclick="closeBanner()">&times;</button>
+        </div>
+    </div>
+
+    <!-- Slider Section -->
+    <section class="slider-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Avisos y Promociones</h2>
+                <p class="section-subtitle">Mantente informado sobre nuestras últimas noticias y ofertas especiales</p>
+            </div>
+            
+            <div class="slider-container">
+                <div class="slider" id="mainSlider">
+                    <!-- Slide 1 -->
+                    <div class="slide active">
+                        <div class="slide-content">
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Promoción Control Prenatal">
+                                <div class="slide-overlay"></div>
+                            </div>
+                            <div class="slide-info">
+                                <div class="slide-category">Promoción Especial</div>
+                                <h3>Control Prenatal Completo</h3>
+                                <p>Paquete integral de seguimiento prenatal con ecografías 4D incluidas. Cuida tu embarazo con nuestros especialistas.</p>
+                                <div class="slide-price">
+                                    <span class="old-price">S/. 800</span>
+                                    <span class="new-price">S/. 599</span>
+                                </div>
+                                <a href="#contacto" class="slide-btn">Reservar Ahora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <div class="slide-content">
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nueva Tecnología">
+                                <div class="slide-overlay"></div>
+                            </div>
+                            <div class="slide-info">
+                                <div class="slide-category">Tecnología Avanzada</div>
+                                <h3>Nuevo Equipo de Ultrasonido 4D</h3>
+                                <p>Implementamos la última tecnología en ultrasonografía para diagnósticos más precisos y detallados.</p>
+                                <div class="slide-features">
+                                    <span><i class="fas fa-check"></i> Imágenes HD</span>
+                                    <span><i class="fas fa-check"></i> Diagnóstico preciso</span>
+                                </div>
+                                <a href="#servicios" class="slide-btn">Conocer Más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <div class="slide-content">
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Campaña Preventiva">
+                                <div class="slide-overlay"></div>
+                            </div>
+                            <div class="slide-info">
+                                <div class="slide-category">Campaña de Salud</div>
+                                <h3>Mes de la Prevención Femenina</h3>
+                                <p>Únete a nuestra campaña de prevención con chequeos completos y consultas especializadas.</p>
+                                <div class="slide-date">
+                                    <i class="fas fa-calendar"></i>
+                                    Válido hasta el 31 de Enero
+                                </div>
+                                <a href="https://wa.me/51919123456?text=Quiero información sobre la campaña de prevención" class="slide-btn" target="_blank">Más Información</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <div class="slide-content">
+                            <div class="slide-image">
+                                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nuevo Doctor">
+                                <div class="slide-overlay"></div>
+                            </div>
+                            <div class="slide-info">
+                                <div class="slide-category">Equipo Médico</div>
+                                <h3>Bienvenida Dra. Patricia Silva</h3>
+                                <p>Nos complace anunciar la incorporación de la Dra. Silva, especialista en medicina reproductiva.</p>
+                                <div class="slide-credentials">
+                                    <span>🎓 Harvard Medical School</span>
+                                    <span>🏆 15 años de experiencia</span>
+                                </div>
+                                <a href="#equipo" class="slide-btn">Ver Equipo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider Navigation -->
+                <button class="slider-nav prev" onclick="changeSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-nav next" onclick="changeSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- Slider Dots -->
+                <div class="slider-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Announcements -->
+    <section class="quick-announcements">
+        <div class="container">
+            <div class="announcements-grid">
+                <div class="announcement-card urgent">
+                    <div class="announcement-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="announcement-content">
+                        <h4>Horario Especial</h4>
+                        <p>Durante feriados atendemos con cita previa</p>
+                    </div>
+                </div>
+                <div class="announcement-card info">
+                    <div class="announcement-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="announcement-content">
+                        <h4>Telemedicina</h4>
+                        <p>Consultas virtuales disponibles</p>
+                    </div>
+                </div>
+                <div class="announcement-card success">
+                    <div class="announcement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="announcement-content">
+                        <h4>Nueva Sede</h4>
+                        <p>Próximamente en Miraflores</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section id="nosotros" class="about">
         <div class="container">
