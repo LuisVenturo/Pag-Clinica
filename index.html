@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Internacional - Ginecología y Obstetricia</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-hospital"></i>
+                </div>
+                <span>Clínica Internacional</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#contacto" class="cta-button">Reservar Cita</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Ginecología y Obstetricia</h1>
+                <p>Comprometidos en brindar la mejor atención, ofrecemos una gama de servicios obstétricos y ginecológicos con un staff médico de primer nivel. Cuidamos tu salud con la excelencia que mereces.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i>
+                        Agendar Cita
+                    </a>
+                    <a href="#nosotros" class="btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Conocer Más
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Atención médica profesional">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Estamos Contigo</h2>
+                <p class="section-subtitle">Brindamos atención médica integral con los más altos estándares de calidad y calidez humana.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Nuestra Misión</h3>
+                    <p>Nuestro equipo de ginecología y obstetricia brinda una atención integral a pacientes gestantes con diversas diagnósticos o complicaciones que se presentan en el embarazo. Además, contamos con excelente soporte del servicio de neonatología para el manejo de partos prematuros.</p>
+                    <p>Ofrecemos desde exámenes y tratamientos médicos de rutina hasta servicios de cirugías ginecológicas y atención especializada en complicaciones de alto riesgo.</p>
+                </div>
+                <div class="about-image">
+                    <img src="./source/cientificos-de-tiro-medio-posando-juntos.jpg" alt="Equipo médico profesional" style="width: 100%; height: 400px; object-fit: cover; border-radius: 15px;">
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Años de Experiencia</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-label">Pacientes Atendidas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Atención de Emergencia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-subtitle">Ofrecemos una amplia gama de servicios especializados en ginecología y obstetricia.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Control Prenatal</h3>
+                    <p>Seguimiento completo del embarazo con monitoreo especializado para garantizar la salud de madre e hijo.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Ginecología General</h3>
+                    <p>Consultas preventivas, tratamientos especializados y procedimientos ginecológicos con tecnología avanzada.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Ultrasonografía</h3>
+                    <p>Estudios de imagen de alta resolución para diagnóstico preciso y seguimiento detallado.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-procedures"></i>
+                    </div>
+                    <h3>Cirugías Especializadas</h3>
+                    <p>Intervenciones quirúrgicas ginecológicas con técnicas mínimamente invasivas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Medicina Preventiva</h3>
+                    <p>Programas de prevención y detección temprana de enfermedades ginecológicas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Emergencias 24/7</h3>
+                    <p>Atención de urgencias obstétricas y ginecológicas las 24 horas del día, todos los días del año.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipo" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Equipo Médico</h2>
+                <p class="section-subtitle">Profesionales altamente calificados comprometidos con tu bienestar.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="team-info">
+                        <h3>Dra. María González</h3>
+                        <p class="specialty">Ginecóloga Obstetra</p>
+                        <p>Especialista en medicina materno-fetal con 15 años de experiencia en atención de embarazos de alto riesgo.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="team-info">
+                        <h3>Dr. Carlos Mendoza</h3>
+                        <p class="specialty">Ginecólogo Oncólogo</p>
+                        <p>Especialista en ginecología oncológica y cirugías mínimamente invasivas con certificación internacional.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="team-info">
+                        <h3>Dra. Ana Rodríguez</h3>
+                        <p class="specialty">Medicina Reproductiva</p>
+                        <p>Especialista en reproducción asistida y endocrinología reproductiva con formación en Europa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestras Sedes</h2>
+                <p class="section-subtitle">Ginecología se encuentra en las siguientes sedes:</p>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Huánuco - Sede Principal</h3>
+                    <p>Av. Universitaria - Cayhuayna, Huánuco</p>
+                    <p>Teléfono: (01) 619-6161</p>
+                    <p>Horario: Lunes a Domingo 24hrs</p>
+                </div>
+                <div class="location-card">
+                    <div class="location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Sede Norte</h3>
+                    <p>Av. Alfredo Mendiola 3520, Los Olivos</p>
+                    <p>Teléfono: (01) 619-6162</p>
+                    <p>Horario: Lunes a Sábado 7am-10pm</p>
+                </div>
+                <div class="location-card">
+                    <div class="location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Sede Sur</h3>
+                    <p>Av. El Derby 254, Surco</p>
+                    <p>Teléfono: (01) 619-6163</p>
+                    <p>Horario: Lunes a Sábado 7am-10pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">Estamos aquí para atenderte. Contacta con nosotros.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 style="color: #1F2937; margin-bottom: 2rem; font-size: 1.5rem;">Información de Contacto</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: #1F2937; margin-bottom: 0.5rem;">Central de Citas</h4>
+                            <p style="color: #6B7280;">(01) 619-6161</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: #1F2937; margin-bottom: 0.5rem;">Email</h4>
+                            <p style="color: #6B7280;">citas@clinicainternacional.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: #1F2937; margin-bottom: 0.5rem;">Dirección</h4>
+                            <p style="color: #6B7280;">Av. Javier Prado Este 1066, San Isidro, Lima</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: #1F2937; margin-bottom: 0.5rem;">Horarios</h4>
+                            <p style="color: #6B7280;">24 horas - Todos los días</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 style="color: #1F2937; margin-bottom: 2rem; font-size: 1.5rem;">Envíanos un Mensaje</h3>
+                    <form id="contactForm" action="https://formsubmit.co/venturomoralesluis@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/CLINICA/">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Describe tu consulta o solicitud de cita..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Clínica Internacional</h3>
+                    <p>Comprometidos con brindar la mejor atención médica especializada en ginecología y obstetricia, con más de 15 años de experiencia cuidando la salud integral de la mujer.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#servicios">Control Prenatal</a></li>
+                        <li><a href="#servicios">Ginecología General</a></li>
+                        <li><a href="#servicios">Ultrasonografía</a></li>
+                        <li><a href="#servicios">Cirugías Especializadas</a></li>
+                        <li><a href="#servicios">Medicina Preventiva</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#equipo">Nuestro Equipo</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#contacto">Reservar Cita</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +51 962 281 509</li>
+                        <li><i class="fas fa-envelope"></i> luisventuro@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Universitaria - cayhuayna, Huánuco</li>
+                        <li><i class="fas fa-clock"></i> 24 horas - Todos los días</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Clínica Internacional. Todos los derechos reservados. | Diseñado con ❤️ para tu salud</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp floating button -->
+    <a href="https://wa.me/51962281509?text=Hola,%20me%20gustar%C3%ADa%20agendar%20una%20cita%20para%20ginecolog%C3%ADa" 
+       class="whatsapp-float" 
+       target="_blank" 
+       title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="./script.js" defer>   
+    </script>
+
+</body>
+</html>
