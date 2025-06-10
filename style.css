@@ -201,6 +201,8 @@
             transform: translateY(-3px);
         }
 
+        
+
         .hero-image {
             position: relative;
             animation: slideInRight 1s ease-out;
@@ -424,6 +426,15 @@
         .team-info p {
             color: #6B7280;
             line-height: 1.6;
+        }
+
+        .foto{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            padding: 5px;
+
         }
 
         /* Contact Section */
