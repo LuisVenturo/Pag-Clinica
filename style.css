@@ -13,13 +13,13 @@
 
         /* Header y Navegación */
         .header {
-            background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 50%, #C084FC 100%);
+            background: linear-gradient(135deg, #047cc4 0%, #0c84c4 50%, #9cdcf4 100%);
             color: white;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 20px rgba(139, 92, 246, 0.3);
+            box-shadow: 0 2px 20px rgba(4, 124, 196, 0.3);
             backdrop-filter: blur(10px);
         }
 
@@ -43,7 +43,7 @@
         .logo-icon {
             width: 40px;
             height: 40px;
-            background: rgba(255, 255, 255, 0.2);
+            background: rgb(255, 255, 255);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -106,7 +106,8 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 50%, #C084FC 100%);
+            background: linear-gradient(135deg, #047cc4 0%, #0c84c4 50%, #9cdcf4 100%);
+            /* background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 50%, #C084FC 100%); */
             color: white;
             padding: 120px 0 80px;
             position: relative;
@@ -235,7 +236,7 @@
             font-weight: 700;
             color: #1F2937;
             margin-bottom: 1rem;
-            background: linear-gradient(135deg, #8B5CF6, #3B82F6);
+            background: linear-gradient(135deg, #02b2f8, #3B82F6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -293,7 +294,7 @@
         .stat-number {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #8B5CF6;
+            color: #047cc4;
             display: block;
         }
 
@@ -333,7 +334,7 @@
             left: 0;
             right: 0;
             height: 4px;
-            background: linear-gradient(135deg, #8B5CF6, #3B82F6);
+            background: linear-gradient(135deg, #047cc4, #3b83f6be);
         }
 
         .service-card:hover {
@@ -344,7 +345,7 @@
         .service-icon {
             width: 70px;
             height: 70px;
-            background: linear-gradient(135deg, #8B5CF6, #A855F7);
+            background: linear-gradient(135deg, #047cc4, #0c84c4);
             border-radius: 15px;
             display: flex;
             align-items: center;
@@ -395,7 +396,7 @@
         .team-image {
             width: 100%;
             height: 300px;
-            background: linear-gradient(135deg, #8B5CF6, #A855F7);
+            background: linear-gradient(135deg, #047cc4, #047cc4);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -415,7 +416,7 @@
         }
 
         .team-info .specialty {
-            color: #8B5CF6;
+            color: #047cc4;
             font-weight: 500;
             margin-bottom: 1rem;
         }
@@ -460,7 +461,7 @@
         .contact-icon {
             width: 50px;
             height: 50px;
-            background: linear-gradient(135deg, #8B5CF6, #A855F7);
+            background: linear-gradient(135deg, #047cc4, #0c84c4);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -499,7 +500,7 @@
         .form-group input:focus,
         .form-group textarea:focus {
             outline: none;
-            border-color: #8B5CF6;
+            border-color: #0c84c4;
             box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
         }
 
@@ -510,7 +511,7 @@
 
         .submit-btn {
             width: 100%;
-            background: linear-gradient(135deg, #8B5CF6, #A855F7);
+            background: linear-gradient(135deg, #047cc4, #0c84c4);
             color: white;
             padding: 1rem 2rem;
             border: none;
@@ -523,7 +524,7 @@
 
         .submit-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.4);
+            box-shadow: 0 10px 25px rgba(5, 127, 241, 0.4);
         }
 
         /* WhatsApp Float Button */
@@ -567,7 +568,7 @@
         }
 
         .footer-section h3 {
-            color: #8B5CF6;
+            color: #047cc4;
             margin-bottom: 1.5rem;
             font-size: 1.3rem;
             font-weight: 600;
@@ -595,7 +596,7 @@
         }
 
         .footer-section a:hover {
-            color: #8B5CF6;
+            color: #047cc4;
         }
 
         .footer-bottom {
@@ -766,7 +767,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.8), rgba(59, 130, 246, 0.6));
+            /* background: linear-gradient(135deg, rgba(139, 92, 246, 0.8), rgba(59, 130, 246, 0.6)); */
             opacity: 0.8;
         }
 
@@ -780,7 +781,7 @@
         }
 
         .slide-category {
-            background: linear-gradient(135deg, #8B5CF6, #A855F7);
+            background: linear-gradient(135deg, #047cc4, #0c84c4);
             color: white;
             padding: 0.5rem 1rem;
             border-radius: 20px;
@@ -862,7 +863,7 @@
         }
 
         .slide-btn {
-            background: linear-gradient(135deg, #8B5CF6, #A855F7);
+            background: linear-gradient(135deg, #047cc4, #0c84c4);
             color: white;
             padding: 1rem 2rem;
             border-radius: 50px;
@@ -871,12 +872,12 @@
             font-size: 1.1rem;
             width: fit-content;
             transition: all 0.3s ease;
-            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.4);
+            box-shadow: 0 10px 25px rgba(4, 124, 196, 0.4);
         }
 
         .slide-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 35px rgba(139, 92, 246, 0.6);
+            box-shadow: 0 15px 35px rgba(4, 124, 196, 0.7);
         }
 
         /* Slider Navigation */
@@ -913,7 +914,7 @@
         }
 
         .slider-nav i {
-            color: #8B5CF6;
+            color: #047cc4;
             font-size: 1.2rem;
         }
 
@@ -1103,7 +1104,7 @@
                 top: 100%;
                 left: 0;
                 width: 100%;
-                background: rgba(139, 92, 246, 0.95);
+                background: rgba(92, 184, 246, 0.95);
                 flex-direction: column;
                 padding: 2rem;
                 backdrop-filter: blur(10px);
@@ -1195,7 +1196,7 @@
         .location-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-            border-color: #8B5CF6;
+            border-color: #047cc4;
         }
 
         .location-icon {
