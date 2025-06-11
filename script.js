@@ -141,10 +141,9 @@
 
         // Banner functionality
         const bannerTexts = [
-            "🎉 ¡Promoción especial! Consultas ginecológicas con 30% de descuento durante todo enero",
-            "📅 Agenda tu cita online las 24 horas - Sistema disponible en nuestra web",
-            "🏥 Nuevo equipo de ultrasonido 4D - Tecnología de última generación",
-            "👩‍⚕️ Bienvenida Dra. Patricia Silva - Especialista en medicina reproductiva"
+            "🎉 ¡Bienvenidos  al CAP II EsSalud Villa Rica!",
+            "📅 Promoción especial!! Despistaje de cáncer mamario a mayores de 50 años. Agenda tu cita...",
+            "🏥Este sábado próximo, viaje a Oxapampa, momentos de compartir"
         ];
 
         let currentBannerIndex = 0;
